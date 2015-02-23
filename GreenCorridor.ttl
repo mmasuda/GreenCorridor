@@ -1,0 +1,401 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:   <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rss:  <http://purl.org/rss/2.0/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ldo:  <http://data.lodosaka.jp/property#> .
+@prefix bp:  <http://data.lodosaka.jp/GreenCorridor.ttl#> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#1>
+	rdfs:label "鴫野湯" ;
+	bp:分類 "風呂屋" ;
+	bp:アイコン番号 "1"@ja ;
+	bp:所在地 "大阪府大阪市城東区鴫野西2-8-6"@ja ;
+	geo:lat "34.691973" ;
+	geo:long "135.537643" ;
+	bp:休業日 "水・木・土・日"@ja ;
+	bp:開始時間 "10:00"@ja ;
+	bp:終了時間 "16:00"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.osaka268.com/public_bath/c_jyoutou/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#2>
+	rdfs:label "楽天地温泉" ;
+	bp:分類 "風呂屋" ;
+	bp:アイコン番号 "1"@ja ;
+	bp:所在地 "大阪府大阪市北区池田町7-12"@ja ;
+	geo:lat "34.707413" ;
+	geo:long "135.512921" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:開始時間 "14:00"@ja ;
+	bp:終了時間 "0:30:00"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://osaka268.visithp.com/kita/furoya/6/6.html> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#3>
+	rdfs:label "紅梅温泉" ;
+	bp:分類 "風呂屋" ;
+	bp:アイコン番号 "1"@ja ;
+	bp:所在地 "大阪府大阪市北区天神橋3−1−25"@ja ;
+	geo:lat "34.699808" ;
+	geo:long "135.512101" ;
+	bp:休業日 "毎週土曜・第3日曜日"@ja ;
+	bp:開始時間 "14:30"@ja ;
+	bp:終了時間 "0:00"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://osaka268.visithp.com/kita/furoya/1/1.html> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#4>
+	rdfs:label "天六温泉" ;
+	bp:分類 "風呂屋" ;
+	bp:アイコン番号 "1"@ja ;
+	bp:所在地 "大阪府大阪市北区長柄西1-1-19"@ja ;
+	geo:lat "34.712781" ;
+	geo:long "135.512256" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:開始時間 "10:00"@ja ;
+	bp:終了時間 "25:00:00"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.naniwanoyu.com/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#5>
+	rdfs:label "桜宮温泉" ;
+	bp:分類 "風呂屋" ;
+	bp:アイコン番号 "1"@ja ;
+	bp:所在地 "大阪府大阪市都島区中野町4-13-13"@ja ;
+	geo:lat "34.704291" ;
+	geo:long "135.522502" ;
+	bp:休業日 "10、20、30日"@ja ;
+	bp:開始時間 "14:30"@ja ;
+	bp:終了時間 "0:30"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.osaka268.com/public_bath/c_miyakojima> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#6>
+	rdfs:label "JR森ノ宮駅" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.681303" ;
+	geo:long "135.533859" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#7>
+	rdfs:label "中央線森ノ宮駅" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.681479" ;
+	geo:long "135.533441" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#8>
+	rdfs:label "JR天満駅" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.704883" ;
+	geo:long "135.51225" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#9>
+	rdfs:label "谷町線天神橋筋六丁目" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.710314" ;
+	geo:long "135.512858" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#10>
+	rdfs:label "堺筋線天神橋筋六丁目" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.710949" ;
+	geo:long "135.51068" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#11>
+	rdfs:label "堺筋線扇町駅" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.704255" ;
+	geo:long "135.510809" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#12>
+	rdfs:label "堺筋線南森町駅" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.697555" ;
+	geo:long "135.511509" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#13>
+	rdfs:label "堺筋線南森町駅" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.697573" ;
+	geo:long "135.510543" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#14>
+	rdfs:label "JR大阪天満宮駅" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.697458" ;
+	geo:long "135.512024" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#15>
+	rdfs:label "JR大阪城北詰駅" ;
+	bp:分類 "コインロッカ" ;
+	bp:アイコン番号 "2"@ja ;
+	geo:lat "34.69444" ;
+	geo:long "135.525247" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "有料"@ja ;
+	bp:URL <http://www.coinlocker-navi.com/osaka/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#16>
+	rdfs:label "大阪城公園１０" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.68265118" ;
+	geo:long "135.5272201" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#17>
+	rdfs:label "大阪城公園１１" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.68237195" ;
+	geo:long "135.5296489" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#18>
+	rdfs:label "大阪城公園１４" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.68231691" ;
+	geo:long "135.5329778" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#19>
+	rdfs:label "大阪城公園８" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.6856255" ;
+	geo:long "135.5215822" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#20>
+	rdfs:label "大阪城公園９" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.68354795" ;
+	geo:long "135.5220168" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#21>
+	rdfs:label "大阪城公園４" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.68676711" ;
+	geo:long "135.5283081" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#22>
+	rdfs:label "大阪城公園１２" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.68426226" ;
+	geo:long "135.5304297" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#23>
+	rdfs:label "大阪城公園１３" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.68362662" ;
+	geo:long "135.5320905" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#24>
+	rdfs:label "大阪城公園１５" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.6863409" ;
+	geo:long "135.5332284" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#25>
+	rdfs:label "大阪城公園５" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.68972281" ;
+	geo:long "135.5261899" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#26>
+	rdfs:label "大阪城公園１８" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.68990082" ;
+	geo:long "135.5285224" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#27>
+	rdfs:label "天神橋南" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.69041159" ;
+	geo:long "135.5114789" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#28>
+	rdfs:label "毛馬桜ノ宮公園" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.69202179" ;
+	geo:long "135.5176806" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#29>
+	rdfs:label "南天満公園２" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.69205835" ;
+	geo:long "135.5143827" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#30>
+	rdfs:label "中之島公園２" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.69169975" ;
+	geo:long "135.5103598" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#31>
+	rdfs:label "中之島公園１" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.69271941" ;
+	geo:long "135.5074816" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#32>
+	rdfs:label "毛馬桜ノ宮公園１" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.69310311" ;
+	geo:long "135.520352" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#33>
+	rdfs:label "毛馬桜ノ宮公園２" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.69557888" ;
+	geo:long "135.5237827" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#34>
+	rdfs:label "毛馬桜ノ宮公園３" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.70590438" ;
+	geo:long "135.518927" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#35>
+	rdfs:label "毛馬桜ノ宮公園４" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.7006299" ;
+	geo:long "135.5230853" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#36>
+	rdfs:label "毛馬桜ノ宮公園５" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.71648149" ;
+	geo:long "135.5220801" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#37>
+	rdfs:label "蕪村公園" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.71818496" ;
+	geo:long "135.5200859" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#38>
+	rdfs:label "淀川河川公園毛馬２" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.728743" ;
+	geo:long "135.523918" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www2.kasen.or.jp/map/kema_aka.html> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#39>
+	rdfs:label "淀川河川公園毛馬１" ;
+	bp:分類 "ＷＣ" ;
+	bp:アイコン番号 "3"@ja ;
+	geo:lat "34.723448" ;
+	geo:long "135.518167" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www2.kasen.or.jp/map/kema_aka.html> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#40>
+	rdfs:label "ＯＡＰ" ;
+	bp:分類 "水飲み場" ;
+	bp:アイコン番号 "4"@ja ;
+	geo:lat "34.699204" ;
+	geo:long "135.521415" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.osakapark.osgf.or.jp/hfm_park/08kema_sakuranomiya/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#41>
+	rdfs:label "南天満公園" ;
+	bp:分類 "水飲み場" ;
+	bp:アイコン番号 "4"@ja ;
+	geo:lat "34.698467" ;
+	geo:long "135.521903" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.osakapark.osgf.or.jp/hfm_park/08kema_sakuranomiya/> .
+<http://data.lodosaka.jp/GreenCorridor.ttl#42>
+	rdfs:label "蕪村公園" ;
+	bp:分類 "水飲み場" ;
+	bp:アイコン番号 "4"@ja ;
+	geo:lat "34.719433" ;
+	geo:long "135.519358" ;
+	bp:休業日 "年中無休"@ja ;
+	bp:料金 "無料"@ja ;
+	bp:URL <http://www.mapnavi.city.osaka.lg.jp/webgis/facilitylist.html?p=1&bt=0&mp=1&vlf=&address=&c=%E5%85%AC%E8%A1%86%E3%83%88%E3%82%A4%E3%83%AC> .

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Osaka Green Corrior Course Info</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style_readme.css">
+
+    </head>
+    <body>
+        <div class="site">
+            <h1><a href="#">Osaka Green Corridor Jogging Cource Info</a></h1>
+        </div>
+        <div class="navigation">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">トップ</a></li>
+                    <li><a href="Readme.html">Readme</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="background">
+            <h1>きっかけ</h1>
+            <h2>
+                <p>北区に引っ越してから、近くの桜宮・大阪城・桜宮・中之島を散策し始めて、市の中心部にもかかわらず四季折々の自然を楽しめることに驚き !!</p>
+                <image src="img/season.png" alt="">
+            </h2>
+            <h1>やってみたこと</h1>
+            <h2>
+                <p>こんなに素晴らしい大阪を広く知ってもらいたい。中之島・大阪城・桜宮・淀川・（願わくば、<span>うめきた</span>まで）をつなぐ<span>緑の回廊（Green Corridor）</span>を四季折々に楽しめるような情報をWebで提供。</p>
+                <p>joggingに絞り、関係する情報の位置等をまとめてLOD化して、Google map上で見えるようにする。</p>
+                <p>プログラムとしては、次のような事をjavascriptで行っています。</p>
+                <ul>
+                    <li>関連情報の名称、位置等をcsvファイル化</li>
+                    <li>csv/RDF変換ツールでRDF化し、LODハッカソンのエンドポイントに登録。ここは、全面的に第5回のLODハッカソンで提供いただいたツールを使用しています。</li>
+                    <li>SPARQLのQueryで、名称、位置情報、アイコン番号、リンク情報を検索、取得。ここも、第5回のLODハッカソンで提供いただいたmap表示ツールに検索式とデータ取得を少し追加して使用しています。</li>
+                    <li>その情報を、Google Map上に、joggingコース情報と共にアイコンとして設置</li>
+                </ul>
+            </h2>
+        </div>
+        <div class ="howtouse">
+            <h1>できること</h1>
+            <h2>
+                <p>ナビゲーションメニューバー:トップとReadme（このページ）間を遷移します。</p>
+                <p>joggingコース関連情報:トップページに公衆浴場、コインロッカ、公衆便所、水飲み場の位置をマップ。アイコンをリンクすると、外部の関連HPに飛びます。</p>
+                <p>２月のおすすめ：トップページの右側にカモメと梅林の写真を載せました。それぞれマップ上に大きめのアイコンで位置を示してます。アイコン（並びに、写真）をクリックすると外部の関連HPに飛びます。</p>
+            </h2>
+            <h2>
+                <p>動作確認：chrome(40.0.2214.115 m）のみで確認。すみません。</p>
+                <p>既知の不具合：銭湯が多数表示された事があり、RDFデータ登録をファイル名を変えてやり直しました。その後再現していませんが、念のため。</p>
+            </h2>
+            <h2>
+                <p><span>著作権等：第5回のLODハッカソンで提供いただいた、map表示ツールを使っています。</span><br>それ以外の、私の作成分は特に主張しません。</p>
+                <p><span>LODの試行目的で作ってみたものですので、データの不具合、プログラムの不具合については保証致しかねます。誠に恐縮ですが、as isでサンプルとして見て頂ければ幸いです。</span></p>
+            </h2>
+        </div>
+    </body>
+</html>

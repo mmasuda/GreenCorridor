@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015/02/23, 14:14:17
+    Author     : Michinori
+*/
+@charset "UTF-8";
+
+body    {font-family: 'メイリオ',sans-serif}
+
+/* レイアウト　*/
+
+.site, .navigation, .background, .howtouse
+{width: 1000px;
+ margin-left: auto;
+ margin-right: auto}
+
+/* サイト名　*/
+.site h1 a {color: #000000;
+            background-color: #FFFFFF;
+            text-decoration: none}
+
+.site h1    {margin: 0;
+             font-size: 30px}
+
+/* ナビゲーション　*/
+
+.navigation{background-color:#32CD32 }
+
+.menu ul    {margin: 0;
+             padding: 0;
+             list-style: none}
+
+.menu li a{display: block;
+           padding: 5px;
+           color: #000000;
+           font-size: 14px;
+           text-decoration: none}
+
+.menu li a:hover    {background-color: #eeeeee}
+
+.menu ul:after      {content:"";
+                     display:block;
+                     clear:both}
+
+.menu li    {float: left;
+             width:auto}
+
+/* メイン　*/
+
+h1 {margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000}
+
+h2 {margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000}
+
+.background span{color: #32CD32}
+.howtouse span{color: #FF4500}
+
+
+
+
